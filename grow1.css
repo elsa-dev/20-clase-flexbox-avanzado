@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja-1 {
+    background-color: rgb(164, 103, 221);
+    height: 250px;
+}
+
+.caja-2 {
+    background-color: rgb(240, 22, 196);
+    height: 250px;
+}
+
+.caja-3 {
+    background-color: rgb(29, 230, 136);
+    height: 250px;
+}
+
+.caja-1, .caja-3 {
+    width: 250px;
+}
+
+.caja-2 {
+    flex-grow: 1;
+} 
+
+
+
+.caja-4 {
+    background-color: rgb(242, 121, 52);
+    height: 250px;
+}
+
+.caja-5 {
+    background-color: rgb(139, 216, 124);
+    height: 250px;
+}
+
+.caja-6 {
+    background-color: rgb(29, 181, 207);
+    height: 250px;
+}
+.caja-7 {
+    background-color: rgb(177, 10, 54);
+    height: 250px;
+}
+
+.caja-4,
+.caja-7 {
+    width: 200px;
+}
+
+.caja-5,
+.caja-6 {
+    flex-grow: 1;
+}

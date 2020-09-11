@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.caja-4 {
+    background-color: rgb(242, 121, 52);
+    height: 250px;
+}
+
+.caja-5 {
+    background-color: rgb(139, 216, 124);
+    height: 250px;
+}
+
+.caja-6 {
+    background-color: rgb(29, 181, 207);
+    height: 250px;
+}
+.caja-7 {
+    background-color: rgb(177, 10, 54);
+    height: 250px;
+}
+
+.caja-4,
+.caja-7 {
+    width: 200px;
+}
+
+.caja-5,
+.caja-6 {
+    flex-grow: 2;
+}

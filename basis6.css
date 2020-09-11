@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.caja-1 {
+    background-color: rgb(139, 216, 124);
+    height: 250px;
+}
+
+.caja-2 {
+    background-color: rgb(29, 181, 207);
+    height: 250px;
+}
+.caja-3 {
+    background-color: rgb(177, 10, 54);
+    height: 250px;
+}
+
+.caja-4 {
+    background-color: rgb(247, 239, 9);
+    height: 250px;
+}
+
+.caja-5 {
+    background-color: rgb(238, 25, 25);
+    height: 250px;
+}
+
+
+
+.caja-1,
+.caja-2,
+.caja-3,
+.caja-4,
+.caja-5 {
+    flex-basis: 25%;
+}
+
+.caja-5 { 
+    flex-grow: 1;
+}
+
+
